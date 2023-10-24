@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  margin: 5px auto;
+  font-family: Roboto, monospace;
+  text-align: justify;
+  --light: #dceddb;
+  --gray: #88958c;
+  --blue: #2b4b58;
+  --noir: #0b232d;
+  --red: #f594ac;
+  --black: #0c0f14;
+  background-color: var(--noir);
+  color: var(--light);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../images/sp1.jpg');
+}
+
+nav {
+  background-color: var(--light);
+  max-width: 80%;
+  padding: 1%;
+  position: sticky;
+  top: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-family: 'Inconsolata', monospace;
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--gray);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+div {
+  margin: 10px auto;
+}
+
+#Generate {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10% auto;
+  padding: 10%;
+  position: relative;
+  text-align: center; /* Center the text inside the button */
+  display: block; /* Ensure the button takes the full width of its container */
+  background-color:var(--noir);
+  color:var(--light)
+}
+
+/* To center the button within its container */
+#Generate-container {
+  text-align: center;
+  
+}
+
+/* To center the main content (adjust as needed) */
+main {
+  text-align: center;
+}
