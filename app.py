@@ -14,4 +14,4 @@ if __name__ == "__main__":
 def Generate():
     # Your code to perform some action when the button is clicked
     print("called")
-    return 'Action successful'  # You can return a response, redirect, or any suitable output
+    return 'Action successful'  #
